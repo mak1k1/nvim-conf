@@ -1,5 +1,8 @@
 require('lazy').setup({
-  { import = 'plugins' },
+  { import = 'plugins/telescope' },
+  { import = 'plugins/harpoon' },
+  { import = 'plugins/fugitive' },
+  { import = 'plugins/lsp' },
 
   {
     'rose-pine/neovim',
